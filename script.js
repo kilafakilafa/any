@@ -1,4 +1,3 @@
-script.js
 function initengahan(){
     kadoIn.style="display:none";ket.style="display:none";
     Content.style = "opacity:1;margin-top:0";
