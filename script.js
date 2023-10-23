@@ -146,7 +146,7 @@ function initengahan(){
   document.getElementById("lv1").onclick = function() {lv1.style="opacity:0";slov+=1;this.onclick=null;checkslov();}
   document.getElementById("lv2").onclick = function() {lv2.style="opacity:0";slov+=1;this.onclick=null;checkslov();}
   document.getElementById("lv3").onclick = function() {lv3.style="opacity:0";slov+=1;this.onclick=null;checkslov();}
-  document.getElementById("lv4").onclick = function() {lv4.style="opacity:0";slov+=1;this.onclick=null;checkslov();}
+  //document.getElementById("lv4").onclick = function() {lv4.style="opacity:0";slov+=1;this.onclick=null;checkslov();}
   //document.getElementById("lv5").onclick = function() {lv5.style="opacity:0";slov+=1;this.onclick=null;checkslov();}
   //document.getElementById("lv6").onclick = function() {lv6.style="opacity:0";slov+=1;this.onclick=null;checkslov();}
 
