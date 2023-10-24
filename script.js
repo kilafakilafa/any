@@ -61,7 +61,7 @@ function initengahan(){
   }
   function aktiopsL(){opsL.innerHTML=defopsL;opsL.style.opacity=".8";opsLclick=1;opsLcheck+=1;}
   function gantiopsL(){opsL.innerHTML="[ Klik beberapa LOVE-nya ]";opsL.style.opacity=".8";}
-  function otomatis(){pesan3.style="transition:none";pesan8.style="display:none";kalimat.style="opacity:0";if(otoaktipesan==0){setTimeout(otolanj,400)}}
+  function otomatis(){pesan3.style="transition:none";pesan8.style="display:none";kalimat.style="opacity:0";if(otoaktipesan==0){setTimeout(otolanj,800)}}
   function otolanj(){kalimat.style="opacity:1";}
 
   function aktipesan1(){kalimat.innerHTML=pesan1.innerHTML;kolombaru.style="position:relative;opacity:1;transform:scale(1);";}
@@ -97,7 +97,7 @@ function initengahan(){
   new TypeIt("#pesan5", {
   strings: ["" + vketik5], startDelay: 1, speed: 52, cursor: true, waitUntilVisible: true, lifelike: true,
   afterComplete: function(){
-    pesan5.innerHTML=vketik5 + " ><";setTimeout(aktipesan6,800);
+    pesan5.innerHTML=vketik5 + " 😂";setTimeout(aktipesan6,800);
   },}).go();
   }
   vketik6=pesan6.innerHTML;pesan6.innerHTML="";
@@ -150,7 +150,7 @@ function initengahan(){
   document.getElementById("lv5").onclick = function() {lv5.style="opacity:0";slov+=1;this.onclick=null;checkslov();}
   document.getElementById("lv6").onclick = function() {lv6.style="opacity:0";slov+=1;this.onclick=null;checkslov();}
 
-  var slov=0;function checkslov() {if(slov==6){kolombaru.style="position:relative;transform:scale(1)";otomatis();setTimeout(aktipesan2,400);}}
+  var slov=0;function checkslov() {if(slov==6){kolombaru.style="position:relative;transform:scale(1)";otomatis();setTimeout(aktipesan2,800);}}
   
   async function pertanyaan(){var { isConfirmed: prtanya } = await swals.fire({title: ' ' + tanya, text: '' + opstanya, imageUrl: '' + fotostiker6.src, showCancelButton: true, confirmButtonText: '' + tompositif, cancelButtonText: '' + tomnegatif,});
     if(prtanya){
