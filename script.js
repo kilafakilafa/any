@@ -70,9 +70,9 @@ function initengahan(){
   wallpaper.style="transform: scale(1.5);";
   kolombaru.style="";kalimat.innerHTML="";
   new TypeIt("#kalimat", {
-  strings: ["" + vketik2], startDelay: 20, speed: 40, cursor: true, deleteSpeed: 50, breakLines: false, waitUntilVisible: true, lifelike: true,
+  strings: ["" + vketik2], startDelay: 20, speed: 80, cursor: true, deleteSpeed: 20, breakLines: false, waitUntilVisible: true, lifelike: true,
   afterComplete: function(){
-    setTimeout(aktipesan3,500);
+    setTimeout(aktipesan3,1500);
   },}).go();
   }
   vketik3=pesan3.innerHTML;pesan3.innerHTML="";
@@ -82,9 +82,9 @@ function initengahan(){
   wallpaper.style="transform: scale(1)";
   fthilang();ftganti=2;setTimeout(ftmuncul,300);
   new TypeIt("#pesan3", {
-  strings: ["" + vketik3], startDelay: 1, speed: 45, cursor: true, waitUntilVisible: true, lifelike: true,
+  strings: ["" + vketik3], startDelay: 1, speed: 60, cursor: true, waitUntilVisible: true, lifelike: true,
   afterComplete: function(){
-    pesan3.innerHTML=vketik3;setTimeout(otomatis,600);setTimeout(aktipesan4,1010);
+    pesan3.innerHTML=vketik3;setTimeout(otomatis,600);setTimeout(aktipesan4,1500);
   },}).go();
   }
   function aktipesan4(){
@@ -119,6 +119,7 @@ function initengahan(){
     pesan7.innerHTML=vketik7;fungsi=1;setTimeout(tombol,400);
   },}).go();
   }
+
   //Pemisah
   vketik81=pesan8.innerHTML;pesan8.innerHTML="";
   vketik9=pesan9.innerHTML;pesan9.innerHTML="";
